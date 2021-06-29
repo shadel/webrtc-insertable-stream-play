@@ -1,6 +1,6 @@
 {
   "name": "webrtc-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webrtc server demo",
   "main": "index.js",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/notedit"
+    "url": "git+https://github.com/shadel/webrtc-insertable-stream-play"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/notedit"
+    "url": "https://github.com/shadel/webrtc-insertable-stream-play"
   },
-  "homepage": "https://github.com/notedit/",
+  "homepage": "https://github.com/shadel/webrtc-insertable-stream-play",
   "dependencies": {
     "@types/body-parser": "^1.17.0",
     "@types/cors": "^2.8.5",
