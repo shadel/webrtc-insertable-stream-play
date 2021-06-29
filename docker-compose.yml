@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+
+  nextjs:
+    build: 
+      context: .
+      dockerfile: ./Dockerfile 
+    container_name: nextjs
+    ports:
+      - 5000:5000
+    volumes: 
+      - .:/srv/app
+    tty: true
+    
